@@ -1,0 +1,36 @@
+body {
+  background-image: url("../imagens/fundo2.png");
+  background-size: cover; 
+  background-position: center 15%; 
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  position: relative;
+  min-height: 100vh;
+}
+
+table {
+border-collapse: collapse;
+width: 40%;
+margin-left: auto; margin-right: auto;
+}
+
+th, td{
+padding: 40px;
+}
+
+.btn {
+  position: absolute;   
+  padding: 2px 6px;   
+  border: none;       
+  font-size: 30px;
+  border-radius: 2px;   
+  cursor: pointer;   
+  text-decoration: none;  
+}
+.e{
+color: white;  
+    font-family: "MedievalSharp", cursive;
+    font-weight: bold;
+    text-shadow: 
+   0 0 10px gray;
+}

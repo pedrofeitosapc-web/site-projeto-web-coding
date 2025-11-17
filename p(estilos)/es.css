@@ -1,0 +1,53 @@
+body {
+    background-image: url("../../imagens/fundo2.png");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    min-height: 100vh;
+    margin: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+th, td {
+    font-family: "MedievalSharp", cursive;
+    font-weight: bold;
+    vertical-align: top;
+    padding: 15px;
+}
+
+.celula-imagem {
+    padding: 0;
+    width: 300px;
+}
+
+.celula-imagem img {
+    display: block;
+    width: 300px;        /* Largura fixa */
+    height: 500px;       /* Altura fixa */
+    object-fit: cover;   /* Corta o excesso mantendo proporção */
+    object-position: center; /* Centraliza a imagem ao cortar */
+}
+
+.espacamento {
+    height: 30px;
+}
+
+.titulo-secao {
+    color: white;
+    font-size: 24px;
+    padding: 5px 10px;
+    text-align: left;
+}
+
+.conteudo-secao {
+    color: white;
+    padding: 5px 10px;
+    line-height: 1.6;
+        }
